@@ -1,0 +1,1 @@
+- quick clicking on the avatar image shouldn't select it

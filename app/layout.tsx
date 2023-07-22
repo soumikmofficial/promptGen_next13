@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar/Navbar";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -5,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "PromptGen",
-  description: "",
+  description: "Share AI generated prompts",
 };
 
 export default function RootLayout({
@@ -15,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={""}>{children}</body>
+      <body className={""}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

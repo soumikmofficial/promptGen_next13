@@ -1,0 +1,18 @@
+.avatar_container {
+  @apply flex justify-between px-5 py-6 outline-none;
+}
+.avatar_container button {
+  @apply outline-none;
+}
+
+.logo_container {
+  @apply flex items-center gap-5;
+}
+
+.logo {
+  @apply self-center rounded-full;
+}
+
+.logo_title {
+  @apply text-2xl font-bold;
+}
